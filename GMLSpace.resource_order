@@ -1,0 +1,12 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Stuff","order":7,"path":"folders/Stuff.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"__GMLSPACE_STRING__","order":4,"path":"scripts/__GMLSPACE_STRING__/__GMLSPACE_STRING__.yy",},
+    {"name":"__GMLSPACE_CONSOLE_","order":1,"path":"scripts/__GMLSPACE_CONSOLE_/__GMLSPACE_CONSOLE_.yy",},
+    {"name":"obj_game","order":8,"path":"objects/obj_game/obj_game.yy",},
+    {"name":"__GMLSPACE_INIT__","order":2,"path":"scripts/__GMLSPACE_INIT__/__GMLSPACE_INIT__.yy",},
+    {"name":"__GMLSPACE_MATH__","order":3,"path":"scripts/__GMLSPACE_MATH__/__GMLSPACE_MATH__.yy",},
+  ],
+}

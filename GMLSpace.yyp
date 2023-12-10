@@ -1,0 +1,38 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "GMLSpace",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Stuff","folderPath":"folders/Stuff.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.11.0.121",
+  },
+  "resources": [
+    {"id":{"name":"__GMLSPACE_STRING__","path":"scripts/__GMLSPACE_STRING__/__GMLSPACE_STRING__.yy",},},
+    {"id":{"name":"__GMLSPACE_CONSOLE_","path":"scripts/__GMLSPACE_CONSOLE_/__GMLSPACE_CONSOLE_.yy",},},
+    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
+    {"id":{"name":"__GMLSPACE_INIT__","path":"scripts/__GMLSPACE_INIT__/__GMLSPACE_INIT__.yy",},},
+    {"id":{"name":"__GMLSPACE_BUFFER__","path":"scripts/__GMLSPACE_BUFFER__/__GMLSPACE_BUFFER__.yy",},},
+    {"id":{"name":"__GMLSPACE_MATH__","path":"scripts/__GMLSPACE_MATH__/__GMLSPACE_MATH__.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
