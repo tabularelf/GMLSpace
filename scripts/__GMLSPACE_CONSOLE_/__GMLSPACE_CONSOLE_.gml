@@ -18,7 +18,4 @@ function Console() {
 		}
 		return __labels__[$ _label];
 	}
-	
-	static __parent__ = static_get(Console);
-	__GMLSPACE_PARENT_STATIC__;
 }

@@ -1,5 +1,4 @@
-var args = ["Hi {0}", Math.Power(2, 32)];
-Console.Log.Ext(args);
+Console.Log("Hi {0}", Math.Power(2, 32));
 
 var str = "Hello World!";
 var buff = Buffer.Create(String.ByteLength(str), buffer_fixed, 1);

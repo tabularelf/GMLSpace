@@ -35,17 +35,14 @@ function Buffer() {
 		buffer_seek(_buff, buffer_seek_start, _tell);
 	};
 	static Clone = function(_buff) {
-			var _type = buffer_get_type(_buff), _alignment = buffer_get_alignment(_buff), _length = buffer_get_size(_buff);
-			var _newBuff = buffer_create(_length, _type, _alignment);
-			buffer_copy(_buff, 0, _length, _newBuff, 0);
-			return _newBuff;
-		};
+		var _type = buffer_get_type(_buff), _alignment = buffer_get_alignment(_buff), _length = buffer_get_size(_buff);
+		var _newBuff = buffer_create(_length, _type, _alignment);
+		buffer_copy(_buff, 0, _length, _newBuff, 0);
+		return _newBuff;
+	};
 	static CloneExt = function(_buff, _type = buffer_get_type(_buff), _alignment = buffer_get_alignment(_buff), _offset = 0, _length = buffer_get_size(_buff)) {
 		var _newBuff = buffer_create(_length-_offset, _type, _alignment);
 		buffer_copy(_buff, _offset, _length, _newBuff, 0);
 		return _newBuff;
 	};
-	
-	static __parent__ = static_get(Buffer);
-	__GMLSPACE_PARENT_STATIC__;
 }

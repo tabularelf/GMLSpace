@@ -43,9 +43,6 @@ function String(){
 	static SHA1 = sha1_string_utf8;
 	static IsString = is_string;
 	
-	static __parent__ = static_get(String);
-	__GMLSPACE_PARENT_STATIC__
-	
 	// Actual function use
 	if (argument_count > 0) {
 		if (argument_count == 1) {

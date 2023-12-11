@@ -47,7 +47,4 @@ function Math() {
 	static AngleDifference = angle_difference;
 	static LengthDirX = lengthdir_x;
 	static LengthDirY = lengthdir_y;
-	
-	static __parent__ = static_get(Math);
-	__GMLSPACE_PARENT_STATIC__;
 }
